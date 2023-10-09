@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>bio graphy of  emeniem </title>
+        
+    </head>
+   <link rel="stylesheet" href="../traning/artist.css"/>
+    <body>
+        <!--header tag-->
+      <div class="main">HEADER</div>
+          <div> <h3>logo</h3></div> 
+            <div class="nav">
+                <a href="#">Home</a>
+                <a href="#">contact</a>
+                <a href="#">about</a>
+
+
+            </nav>
+
+
+      </div>
+        <hr>
+        <p>Marshall Bruce Mathers III (born October 17, 1972), known professionally as Eminem (/ˌɛmɪˈnɛm/; often stylized as EMINƎM), is an American rapper, songwriter, and record producer. He is credited with popularizing hip hop in Middle America and is frequently mentioned among the greatest rappers of all time.[3] Eminem's global success and acclaimed works are widely regarded as having broken racial barriers for the acceptance of white rappers in popular music. While much of his transgressive work during the late 1990s and early 2000s made him a controversial figure, he came to be a representation of popular angst of the American underclass and has been cited as an influence for many artists of various genres.</p>
+        <hr>
+        <h3>lyrics from godzilla</h3>
+        <p><pre>
+            I can swallow a bottle of alcohol and I'll feel like Godzilla
+            Better hit the deck like the card dealer
+            My whole squad's in here, walking around the party
+            A cross between a zombie apocalypse and B-Bobby "The
+            Brain" Heenan which is probably the
+            Same reason I wrestle with mania
+            Shady's in this bitch, I'm posse'd up
+            Consider it to cross me a costly mistake
+            If they sleepin' on me, the hoes better get insomnia
+            ADHD, Hydroxycut
+            Pass the Courvoisier (Hey, hey)</pre></p>
+            <br>
+            <a href="https://www.youtube.com/watch?v=r_0JjYUe5jo" target="blank"><!-- this connects to another page you have to privide link in href--><h2>YOUTUBE</h2></a>
+            <img src="https://imgs.search.brave.com/fXO3H54FEhcmj3uChw9JqMHAyMC8IVRqN-fovFhT_7Q/rs:fit:860:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8y/LzIwL0VtaW5lbV9T/aGFuZ2hhaV9ncmFm/Zml0LmpwZw" width="500px" height="500px"/>
+            <br>
+            <p><i><b>Lorem</b> ipsum dolor sit amet, consectetur adipisicing elit. Tempora vitae magnam ex, et esse natus, sapiente doloribus fugit recusandae, nemo velit numquam? Possimus nesciunt dicta odit voluptates.</i></p>
+            <div style="background-color: chartreuse;"><b>HOLA!</b></div>
+            <span style="background-color: yellow;">AMIGOS!</span>
+            <br>
+            <hr>
+            <!--lists 1.orderlist(ol) 2.list(li)-->
+            <ol>
+                <li>godzilla</li>
+                <li>slime shaddy</li>
+                <li>moking doll</li>
+                <li>whats my name</li>
+                <li>Rap god</li>
+            </ol>
+            <!-- table -->
+            <table >
+                <tr> 
+                    <th>main</th>
+                    <th>main1</th>
+                </tr>
+                <tr>
+                    <tb>main3</tb>
+                    <tb>main4</tb>
+                </tr>
+            </table>
+            <h1 class="hello">This is class element </h1>
+            <h1 id="hello">This is id element is represeted by # </h1>
+            <button onclick="Hello()">hello</button>
+
+            <script>
+                function Hello()
+                {
+                    document.getELementById("Hello").innerHTML="bye";
+                
+                }
+
+                
+                
+            </script>
+            <br><br>
+            <form action="post">
+                <label>username</label>
+                <input type="text" name="username" placeholeder="Enter username">
+                <br><br>
+                <lable>password</lable>
+                <input type="password" name="password" placeholeder="Enter password"><br><br>
+                <lable>Email</lable>
+                <input type="email" name="eamail" placeholder="enter email"><br><br>
+                <br>
+                <button type="submit">submit</button>
+               
+
+            </form>
+    </body>
+</html>
+
+
+
+
+
+
+
+CSS
+
+.main
+{
+    background-color: chartreuse;
+}
+
+.nav
+{
+
+background-color: aqua;
+padding-left: 250px;
+font-family:cursive;
+font-size: 20px;
+}
+p
+{
+    font-family:cursive;
+}
+pre
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3{
+    background-color: blueviolet;
+}
+body
+{
+    background-color: darkgrey;
+    border-style:solid;
+    border-width: 8px;
+    border-radius: 18px;
+}
